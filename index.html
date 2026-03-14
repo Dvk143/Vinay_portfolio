@@ -3,11 +3,387 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vinay's Portfolio">
-    <meta name="author" content="Vinay">
-    <title>Vinay's Portfolio</title>
+    <meta
+        name="description"
+        content="Portfolio of Devarapalli Vinay Kumar, a full-stack developer focused on React, TypeScript, Python, AI integrations, and responsive web experiences."
+    >
+    <title>Devarapalli Vinay Kumar | Full-Stack Developer</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="root"></div>
+    <div class="page-shell">
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+
+        <header class="site-header">
+            <a class="brand" href="#top">
+                <span class="brand-mark">DV</span>
+                <span class="brand-text">Vinay Kumar</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Primary">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#achievements">Highlights</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+                <span class="toggle-track">
+                    <span class="toggle-thumb"></span>
+                </span>
+                <span class="toggle-label">Midnight</span>
+            </button>
+        </header>
+
+        <main id="top">
+            <section class="hero" id="hero">
+                <div class="hero-copy" data-reveal="up">
+                    <p class="eyebrow">Full-Stack Developer | AI-Ready Builder</p>
+                    <h1>Building polished digital products with modern frontend craft and practical AI integration.</h1>
+                    <p class="hero-text">
+                        I am Devarapalli Vinay Kumar, an Information Technology graduate who enjoys turning ideas
+                        into responsive, production-minded experiences using React, TypeScript, Python, and modern UI systems.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">Explore Projects</a>
+                        <a class="button button-secondary" href="mailto:vinaykumardevarapalli36@gmail.com">Hire Me</a>
+                    </div>
+
+                    <ul class="hero-pills" aria-label="Quick profile details">
+                        <li>React + TypeScript</li>
+                        <li>Supabase + PostgreSQL</li>
+                        <li>Python + ML</li>
+                        <li>OpenAI API</li>
+                    </ul>
+                </div>
+
+                <div class="hero-visual" data-reveal="scale">
+                    <div class="signal-card glass">
+                        <div class="signal-topline">
+                            <span>Developer Snapshot</span>
+                            <span class="signal-live">Available</span>
+                        </div>
+
+                        <div class="signal-grid">
+                            <article class="mini-panel">
+                                <span class="icon-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 64 64" role="img">
+                                        <path d="M16 16h12v12H16zM36 36h12v12H36zM36 16h12v12H36zM16 36h12v12H16z"></path>
+                                        <path d="M28 22h8M22 28v8M42 28v8M28 42h8M22 36h20M32 16v12M32 36v12"></path>
+                                    </svg>
+                                </span>
+                                <strong>75.45%</strong>
+                                <p>B.Tech in Information Technology</p>
+                            </article>
+
+                            <article class="mini-panel">
+                                <span class="icon-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 64 64" role="img">
+                                        <circle cx="32" cy="32" r="6"></circle>
+                                        <ellipse cx="32" cy="32" rx="22" ry="10"></ellipse>
+                                        <ellipse cx="32" cy="32" rx="10" ry="22" transform="rotate(25 32 32)"></ellipse>
+                                    </svg>
+                                </span>
+                                <strong><span class="stat-number" data-count="3">0</span>+</strong>
+                                <p>Career-building internships and training tracks</p>
+                            </article>
+
+                            <article class="mini-panel">
+                                <span class="icon-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 64 64" role="img">
+                                        <path d="M8 38c6 0 6-12 12-12s6 12 12 12 6-12 12-12 6 12 12 12"></path>
+                                        <path d="M8 24h48"></path>
+                                    </svg>
+                                </span>
+                                <strong><span class="stat-number" data-count="87">0</span>%</strong>
+                                <p>Accuracy reached in healthcare risk prediction work</p>
+                            </article>
+
+                            <article class="mini-panel">
+                                <span class="icon-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 64 64" role="img">
+                                        <path d="M32 6l5 14 15 5-15 5-5 15-5-15-15-5 15-5z"></path>
+                                        <path d="M49 41l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"></path>
+                                    </svg>
+                                </span>
+                                <strong><span class="stat-number" data-count="4">0</span>+</strong>
+                                <p>Core stacks across frontend, backend, data, and AI</p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="orbit-cluster" aria-hidden="true">
+                        <span class="orbit orbit-a"></span>
+                        <span class="orbit orbit-b"></span>
+                        <span class="orbit orbit-c"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section two-column" id="about">
+                <div class="section-heading" data-reveal="up">
+                    <p class="section-kicker">About Me</p>
+                    <h2>Turning coursework, internships, and self-driven projects into product-ready engineering skills.</h2>
+                </div>
+
+                <div class="grid-two">
+                    <article class="glass content-card" data-reveal="up">
+                        <p>
+                            I focus on full-stack web development with strong interest in clean UI systems, API design,
+                            and AI-powered user experiences. My recent work combines React, Tailwind, TypeScript,
+                            Supabase, Python, and machine learning to solve practical user problems.
+                        </p>
+                        <p>
+                            I care about maintainable code, responsive design, smooth interaction details, and
+                            building products that feel modern on both desktop and mobile.
+                        </p>
+                    </article>
+
+                    <aside class="glass profile-card" data-reveal="right">
+                        <h3>Quick Facts</h3>
+                        <ul class="fact-list">
+                            <li><span>Phone</span><a href="tel:+917995568329">+91 7995568329</a></li>
+                            <li><span>Email</span><a href="mailto:vinaykumardevarapalli36@gmail.com">vinaykumardevarapalli36@gmail.com</a></li>
+                            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/devarapalli-vinay-15143a303" target="_blank" rel="noreferrer">View Profile</a></li>
+                            <li><span>GitHub</span><a href="https://github.com/Dvk143" target="_blank" rel="noreferrer">github.com/Dvk143</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="section" id="experience">
+                <div class="section-heading" data-reveal="up">
+                    <p class="section-kicker">Experience</p>
+                    <h2>Training and internship experiences that shaped my frontend and backend workflow.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item glass" data-reveal="left">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">May 2024 - June 2024</p>
+                        <h3>Full Stack Web Development Intern</h3>
+                        <p class="timeline-place">Innovate Intern</p>
+                        <p>
+                            Built practical knowledge in React, Node.js, responsive UI design, REST API concepts,
+                            and state management patterns used in modern product development.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item glass" data-reveal="right">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">February 2024 - March 2024</p>
+                        <h3>Python Programming Intern</h3>
+                        <p class="timeline-place">Innovate Intern</p>
+                        <p>
+                            Strengthened backend-oriented Python problem solving with data structures, algorithms,
+                            and software development best practices.
+                        </p>
+                    </article>
+
+                    <article class="timeline-item glass" data-reveal="left">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">July 2023 - August 2023</p>
+                        <h3>React Training Intern</h3>
+                        <p class="timeline-place">Internshala</p>
+                        <p>
+                            Learned React fundamentals including hooks, JSX, component lifecycle concepts,
+                            debugging, and interactive UI building through guided exercises.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <div class="section-heading" data-reveal="up">
+                    <p class="section-kicker">Projects</p>
+                    <h2>Projects that combine product thinking, technical depth, and real implementation detail.</h2>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card glass" data-reveal="up">
+                        <div class="project-top">
+                            <span class="project-badge">Flagship</span>
+                            <span class="project-icon" aria-hidden="true">
+                                <svg viewBox="0 0 64 64" role="img">
+                                    <path d="M12 48c18-1 23-31 40-32-7 9-6 17 0 24-17-1-22 9-40 8z"></path>
+                                    <circle cx="43" cy="22" r="4"></circle>
+                                </svg>
+                            </span>
+                        </div>
+                        <h3>TravelEazy</h3>
+                        <p class="project-stack">React | TypeScript | Tailwind | Shadcn/UI | Supabase | OpenAI API</p>
+                        <p>
+                            Built an AI-powered travel planner that creates personalized itineraries from user preferences.
+                            Implemented authentication, PostgreSQL-backed storage, and efficient state handling.
+                        </p>
+                        <ul class="project-points">
+                            <li>Full-stack architecture with modern frontend and managed backend services</li>
+                            <li>OpenAI integration for itinerary generation and smarter trip planning</li>
+                            <li>Mobile-friendly UX with polished interactions and icon-driven navigation</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card glass" data-reveal="up">
+                        <div class="project-top">
+                            <span class="project-badge">Productivity</span>
+                            <span class="project-icon" aria-hidden="true">
+                                <svg viewBox="0 0 64 64" role="img">
+                                    <rect x="14" y="18" width="36" height="32" rx="8"></rect>
+                                    <path d="M22 14v8M42 14v8M23 30h18M23 38h12"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <h3>Task Manager</h3>
+                        <p class="project-stack">React.js | Python Flask | MySQL | REST API</p>
+                        <p>
+                            Developed a CRUD task management platform with a React frontend, Flask API backend,
+                            persistent MySQL storage, and secure cross-origin communication.
+                        </p>
+                        <ul class="project-points">
+                            <li>Responsive frontend with dynamic updates and structured state flows</li>
+                            <li>REST endpoints for task operations using GET, POST, and DELETE patterns</li>
+                            <li>Data persistence and consistency through relational database integration</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card glass" data-reveal="up">
+                        <div class="project-top">
+                            <span class="project-badge">Machine Learning</span>
+                            <span class="project-icon" aria-hidden="true">
+                                <svg viewBox="0 0 64 64" role="img">
+                                    <path d="M20 48V20M32 48V12M44 48V28"></path>
+                                    <path d="M14 48h36"></path>
+                                    <circle cx="20" cy="20" r="4"></circle>
+                                    <circle cx="32" cy="12" r="4"></circle>
+                                    <circle cx="44" cy="28" r="4"></circle>
+                                </svg>
+                            </span>
+                        </div>
+                        <h3>Heart Disease Risk Prediction System</h3>
+                        <p class="project-stack">Python | Machine Learning | Healthcare Analytics</p>
+                        <p>
+                            Built an end-to-end prediction workflow using 13 clinical features to estimate coronary disease risk
+                            with interpretable outputs and evaluation-focused modeling.
+                        </p>
+                        <ul class="project-points">
+                            <li>Used Logistic Regression and Random Forest models with cross-validation</li>
+                            <li>Achieved 87% prediction accuracy with strong evaluation reporting</li>
+                            <li>Generated probability-based outputs for clearer clinical interpretation</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="skills">
+                <div class="section-heading" data-reveal="up">
+                    <p class="section-kicker">Technical Strengths</p>
+                    <h2>Balanced skills across frontend engineering, backend systems, databases, and data analysis.</h2>
+                </div>
+
+                <div class="skills-layout">
+                    <article class="glass skills-panel" data-reveal="left">
+                        <h3>Core Technologies</h3>
+                        <div class="chip-group">
+                            <span>React.js</span>
+                            <span>TypeScript</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>C</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Tailwind CSS</span>
+                            <span>Shadcn/UI</span>
+                            <span>REST API</span>
+                            <span>OpenAI API</span>
+                        </div>
+                    </article>
+
+                    <article class="glass skills-panel" data-reveal="up">
+                        <h3>Data & Databases</h3>
+                        <div class="chip-group">
+                            <span>MySQL</span>
+                            <span>SQLite</span>
+                            <span>PostgreSQL</span>
+                            <span>Supabase</span>
+                            <span>MongoDB</span>
+                            <span>NumPy</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                            <span>scikit-learn</span>
+                        </div>
+                    </article>
+
+                    <article class="glass skills-panel" data-reveal="right">
+                        <h3>Tools & Workflow</h3>
+                        <div class="chip-group">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>Jupyter Notebook</span>
+                            <span>Spyder</span>
+                            <span>Responsive Design</span>
+                            <span>Debugging</span>
+                            <span>Problem Solving</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section" id="achievements">
+                <div class="section-heading" data-reveal="up">
+                    <p class="section-kicker">Highlights</p>
+                    <h2>Leadership, participation, and achievement signals that add depth beyond coursework.</h2>
+                </div>
+
+                <div class="highlight-grid">
+                    <article class="glass highlight-card" data-reveal="up">
+                        <h3>Leadership</h3>
+                        <p>Served as NCC team leader at school level and coordinated 30+ sports meet team activities as a college sports coordinator.</p>
+                    </article>
+
+                    <article class="glass highlight-card" data-reveal="up">
+                        <h3>Recognition</h3>
+                        <p>Won first place in a college fest volleyball competition and secured second prize in a quiz competition.</p>
+                    </article>
+
+                    <article class="glass highlight-card" data-reveal="up">
+                        <h3>Learning Mindset</h3>
+                        <p>Participated in a Selenium workshop and consistently explored practical project-based learning across web development and AI.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section contact-section" id="contact">
+                <div class="contact-shell glass" data-reveal="scale">
+                    <div>
+                        <p class="section-kicker">Contact</p>
+                        <h2>Let's build something modern, useful, and memorable.</h2>
+                        <p>
+                            I'm looking for opportunities where I can contribute as a frontend or full-stack developer
+                            while continuing to grow in AI-enabled product development.
+                        </p>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a class="button button-primary" href="mailto:vinaykumardevarapalli36@gmail.com">vinaykumardevarapalli36@gmail.com</a>
+                        <a class="button button-secondary" href="https://github.com/Dvk143" target="_blank" rel="noreferrer">GitHub Profile</a>
+                        <a class="button button-secondary" href="https://www.linkedin.com/in/devarapalli-vinay-15143a303" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>Designed as a personalized portfolio for Devarapalli Vinay Kumar.</p>
+        </footer>
+    </div>
+
+    <script src="style.js"></script>
 </body>
 </html>
